@@ -10,11 +10,7 @@ apt-mark unhold keyboard-configuration
 # Install the graphical environment
 ###########################################
 
-# vagrant config
-echo 'PROVIDER=virtualbox' >> /etc/environment
-echo 'GUI=true' >> /etc/environment
-echo 'MEMORY=6154' >> /etc/environment
-echo 'CPUS=4' >> /etc/environment
+
 
 # Force encoding
 echo 'LANG=en_US.UTF-8' >> /etc/environment
@@ -22,13 +18,6 @@ echo 'LANGUAGE=en_US.UTF-8' >> /etc/environment
 echo 'LC_ALL=en_US.UTF-8' >> /etc/environment
 echo 'LC_CTYPE=en_US.UTF-8' >> /etc/environment
 
-# # Environment Vars
-echo 'NAME=xotoguest' >> /etc/environment
-echo 'EMAIL=xotoguest@gmail.com' >> /etc/environment
-echo 'USER_NAME=xotoguest' >> /etc/environment
-echo 'USER_HOME=/home/xotoguest' >> /etc/environment
-echo 'DOTFILE_REPO=https://github.com/xotoenv/dotfiles.git' >> /etc/environment
-echo 'BREW_REPO=https://github.com/linuxbrew/brew' >> /etc/environment
 
 # # Versions
 # echo 'NVM_VERSION=0.33.2' >> /etc/environment
