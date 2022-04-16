@@ -2,8 +2,8 @@
 # Environment Vars
 NAME="xotoguest"
 EMAIL="xotoguest@gmail.com"
-USER_NAME="xotoguest"
-USER_HOME="/home/xotoguest"
+USER_NAME="vagrant"
+USER_HOME="/home/vagrant"
 DOTFILE_REPO="https://github.com/xotoenv/dotfiles.git"
 BREW_REPO="https://github.com/linuxbrew/brew"
 
