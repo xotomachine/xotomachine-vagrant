@@ -1,0 +1,3 @@
+[submodule "packages/xotomachine-script"]
+	path = packages/xotomachine-script
+	url = https://github.com/xotomachine/xotomachine-script

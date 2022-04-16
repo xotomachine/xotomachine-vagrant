@@ -22,24 +22,24 @@ echo 'LANGUAGE=en_US.UTF-8' >> /etc/environment
 echo 'LC_ALL=en_US.UTF-8' >> /etc/environment
 echo 'LC_CTYPE=en_US.UTF-8' >> /etc/environment
 
-# Environment Vars
+# # Environment Vars
 echo 'NAME=xotoguest' >> /etc/environment
 echo 'EMAIL=xotoguest@gmail.com' >> /etc/environment
 echo 'USER_NAME=xotoguest' >> /etc/environment
 echo 'USER_HOME=/home/xotoguest' >> /etc/environment
 echo 'DOTFILE_REPO=https://github.com/xotoenv/dotfiles.git' >> /etc/environment
-echo 'BREW_REPO=https://github.com/Homebrew/brew' >> /etc/environment
+echo 'BREW_REPO=https://github.com/linuxbrew/brew' >> /etc/environment
 
-# Versions
-echo 'NVM_VERSION=0.33.2' >> /etc/environment
-echo 'YARN_VERSION=1.8.0' >> /etc/environment
-echo 'POSTGRES_VERSION=12' >> /etc/environment
-echo 'JAVA_VERSION=11' >> /etc/environment
-echo 'RUBBY_VERSION=2.1.1' >> /etc/environment
-echo 'NERDS_FONT_VERSION=2.1.0' >> /etc/environment
-echo 'FZF_VERSION=0.21.1' >> /etc/environment
-echo 'GITSTATUS_VERSION=1.0.0' >> /etc/environment
-echo 'REPO_PATH=../ubuntu-machine-docker/setup/ubuntu/' >> /etc/environment
+# # Versions
+# echo 'NVM_VERSION=0.33.2' >> /etc/environment
+# echo 'YARN_VERSION=1.8.0' >> /etc/environment
+# echo 'POSTGRES_VERSION=12' >> /etc/environment
+# echo 'JAVA_VERSION=11' >> /etc/environment
+# echo 'RUBBY_VERSION=2.1.1' >> /etc/environment
+# echo 'NERDS_FONT_VERSION=2.1.0' >> /etc/environment
+# echo 'FZF_VERSION=0.21.1' >> /etc/environment
+# echo 'GITSTATUS_VERSION=1.0.0' >> /etc/environment
+# echo 'REPO_PATH=../ubuntu-machine-docker/setup/ubuntu/' >> /etc/environment
 
 # Run GUI as non-privileged user
 echo 'allowed_users=anybody' > /etc/X11/Xwrapper.config
